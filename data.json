@@ -1,0 +1,29 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "An app that displays random quotes from famous historical figures, writers, and entertainers at the click of a button. Users can easily share quotes on Twitter with an integrated button.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://sydnichols.github.io/a_random_quote_generator-v1",
+        "github_link": "https://github.com/SydNichols/a_random_quote_generator-v1",
+        "image_urls": [
+          "/static/images/project1/project1-landing-page.png",
+          "/static/images/project1/project1-screenshot1.png"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Interactive Form",
+        "description": "A registration form for a fictional conference that includes real-time form validation, conditional fields, and custom error messages. Creates a better user experience with immediate feedback.",
+        "technologies": ["HTML", "CSS", "JavaScript", "RegEx"],
+        "live_link": "https://sydnichols.github.io/interactive_form",
+        "github_link": "https://github.com/SydNichols/interactive_form",
+        "image_urls": [
+          "/static/images/project2/project2-landing-page.png",
+          "/static/images/project2/project2-screenshot.png",
+          "/static/images/project2/project2-screenshot2.png"
+        ]
+      }
+    ]
+  }
