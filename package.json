@@ -1,0 +1,24 @@
+{
+  "name": "static_node_and_express_site-v1",
+  "version": "1.0.0",
+  "description": "A project built with Node.js and Express",
+  "homepage": "https://github.com/SydNichols/static_node_and_express_site-v1#readme",
+  "bugs": {
+    "url": "https://github.com/SydNichols/static_node_and_express_site-v1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SydNichols/static_node_and_express_site-v1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pug": "^3.0.3"
+  }
+}
