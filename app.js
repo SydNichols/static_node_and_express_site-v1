@@ -11,13 +11,20 @@ const app = express();
 app.set('view engine', 'pug');
 
 //static route for static files
-app.use('static', express.static(path.join(__dirname, 'public')));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //set routes
 //index route to home page
 app.get('/', (req, res) => {
+    res.render('index', { projects: data.projects });
+});
+
+//route for about page
+app.get('/about', (req, res) => {
     res.render('about');
 });
+
+
 
 //project routes
 app.get('/project/:id', (req, res, next) => {
