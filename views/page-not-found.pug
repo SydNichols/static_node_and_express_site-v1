@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back to Home
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+        h1 Page Not Found
+
+        //- Display a friendly 404 message
+        h2 404 Error
+        p The page you're looking for doesn't exist or has been moved.
+
+        //- Add a friendly explanation
+        p This might have happened because:
+        ul
+          li The URL was typed incorrectly
+          li The page was moved or deleted
+          li The link you clicked was outdated
+      
+      .skills-contact-box.box
+        h6 What Next?
+        p You can navigate back to the home page or check out some of my other projects.
+
+        //- Link back to home page
+        a.btn-link(href='/') Return to Home
