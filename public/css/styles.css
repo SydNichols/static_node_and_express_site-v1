@@ -21,8 +21,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  background: #f5f7fa;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -33,6 +32,10 @@ article {
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+
+h1, h2, h5, h6 {
+  color: #42557b;
 }
 
 h5{
@@ -84,6 +87,9 @@ a {
   padding: 40px 50px 30px;
   background: #fefefe;
   border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
 }
 
 .box h1,
@@ -119,7 +125,15 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #93aec1; 
+}
+
+.nav a {
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #42557b;
 }
 
 nav a span {
@@ -137,11 +151,21 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #42557b;
 }
 
 .sidebar-info-box {
   margin: auto;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .thumbnail-box {
@@ -176,7 +200,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #93aec1;
 }
 
 .header {
@@ -184,7 +208,7 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #42557b;
   border-left: 1px solid #0a0a0a;
 }
 
@@ -253,6 +277,9 @@ nav a span {
 
 .cell a {
   width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
 }
 
 .cell img {
@@ -296,8 +323,14 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #42557b;
   border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover {
+  background-color: #2d3e5f;
+  transform: translateY(-2px);
 }
 
 
@@ -333,6 +366,12 @@ nav a span {
 
   .cell h5 {
     font-size: 1.25rem;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+
+  .cell:hover h5 {
+    transform: translateY(-3px);
   }
 
   .grid {
