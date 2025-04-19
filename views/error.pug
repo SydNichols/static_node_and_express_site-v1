@@ -11,11 +11,9 @@ block content
       .about-intro-box.box
         h1 Error
 
-        //- Display the error status and message
         h2= `Status: ${err.status}`
         p= err.message
 
-        //- Display the stack trace only in development environment
         if err.stack
           pre.error-stack
             code= err.stack
@@ -25,5 +23,4 @@ block content
         p Something went wrong on the server. This could be a temporary issue or a problem with the requested resource.
         p Please try again later or contact the site administrator if the problem persists.
 
-        //- Link back to home page
         a.btn-link(href='/') Return to Home
