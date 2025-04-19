@@ -3,7 +3,7 @@
       {
         "id": 0,
         "project_name": "Random Quote Generator",
-        "description": "An app that displays random quotes from famous historical figures, writers, and entertainers at the click of a button. Users can easily share quotes on Twitter with an integrated button.",
+        "description": "An app that displays random quotes from famous historical figures, writers, and entertainers at the click of a button.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://sydnichols.github.io/a_random_quote_generator-v1",
         "github_link": "https://github.com/SydNichols/a_random_quote_generator-v1",
@@ -16,13 +16,50 @@
         "id": 1,
         "project_name": "Interactive Form",
         "description": "A registration form for a fictional conference that includes real-time form validation, conditional fields, and custom error messages. Creates a better user experience with immediate feedback.",
-        "technologies": ["HTML", "CSS", "JavaScript", "RegEx"],
+        "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://sydnichols.github.io/interactive_form",
         "github_link": "https://github.com/SydNichols/interactive_form",
         "image_urls": [
           "/static/images/project2/project2-landing-page.png",
           "/static/images/project2/project2-screenshot.png",
           "/static/images/project2/project2-screenshot2.png"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Gameshow App",
+        "description": "A browser-based, word guessing game: 'Phrase Hunter'. Users select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"],
+        "live_link": "https://sydnichols.github.io/oop-gameshow-app",
+        "github_link": "https://github.com/SydNichols/oop-gameshow-app",
+        "image_urls": [
+          "/static/images/project3/project3-landing-page.png",
+          "/static/images/project3/project3-screenshot1.png",
+          "/static/images/project3/project3-screenshot2.png"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "Employee Directory via API",
+        "description": "The Employee Directory is a clean, responsive web app that showcases team members in an at‑a‑glance gallery with photos, names, emails, and locations. Clicking any profile opens a sleek modal card revealing each employee’s full contact details.",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "live_link": "https://sydnichols.github.io/student-files",
+        "github_link": "https://github.com/SydNichols/student-files",
+        "image_urls": [
+          "/static/images/project4/project4-landing-page.png",
+          "/static/images/project4/project4-screenshot1.png"
+        ]
+      },
+      {
+        "id": 0,
+        "project_name": "Student Files",
+        "description": "The Student Roster site loads any size list of student records, presenting the first nine profiles—photo, name, and email—in a neat, responsive gallery. Intuitive pagination buttons let visitors flip through additional pages instantly, all powered by pure JavaScript for flexible data handling without external libraries.",
+        "technologies": ["CSS", "JavaScript"],
+        "live_link": "https://sydnichols.github.io/Data-Pagination-and-Filtering",
+        "github_link": "https://github.com/SydNichols/student-files",
+        "image_urls": [
+          "/static/images/project5/project5-landing-page.png",
+          "/static/images/project5/project5-screenshot1.png"
         ]
       }
     ]
